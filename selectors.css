@@ -19,11 +19,20 @@ nav ul li a {
 /*Any text in an element with class "disabled" should be colored grey, unless it is inside an anchor 
 tag. If inside an anchor, it should be colored purple.*/
 
+.disabled {
+	color: gray;
+}
+a .disabled {
+	color: purple;
+}
+
 /*Any text inside an element with a class of "active" should be colored yellow.*/
+.active {
+	color: yellow;
+}
 
-/*Section elements should be contained within an article element.*/
-
-/*There are two missing closing tags in this document. Make sure you add them back in.*/
+/*DONE Section elements should be contained within an article element.*/
+/*DONEThere are two missing closing tags in this document. Make sure you add them back in.*/
 
 /*Make the "I'm red" text colored red*/
 
